@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    {{ people }}-->
+    {% for men in people %}
+    <h1>{{ men.name }}</h1>
+    <p>{{ men.age }}</p>
+    <hr>
+    {% endfor %}
+    <p>{{ chel }} человек</p>
+</body>
+</html>
